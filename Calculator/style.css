@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar p {
+  font-family: lobster;
+  color: white;
+  text-shadow: 2px 2px 2 px orangered;
+  margin: 20px;
+  /* font-style: ; */
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.navbar span{
+    color: orange;
+}
+body {
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("cal.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cal-div {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.calculator {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#display {
+  width: 95%;
+  height: 60px;
+  font-size: 24px;
+  text-align: right;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #eee;
+  border: none;
+  border-radius: 5px;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+button {
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+}
+button:hover {
+  background-color: #45a049;
+}
+.operator {
+  background-color: #ff9800;
+}
+.operator:hover {
+  background-color: #e68a00;
+}
+.clear {
+  background-color: #f44336;
+}
+.clear:hover {
+  background-color: #da190b;
+}
+.equals {
+  background-color: #2196f3;
+}
+.equals:hover {
+  background-color: #0b7dda;
+}
